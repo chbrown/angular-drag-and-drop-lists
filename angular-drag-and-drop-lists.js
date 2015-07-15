@@ -7,6 +7,8 @@
  *
  * License: MIT
  */
+(function(window, angular, undefined) {
+
 angular.module('dndLists', [])
 
   /**
@@ -467,3 +469,5 @@ angular.module('dndLists', [])
    * https://code.google.com/p/chromium/issues/detail?id=39399
    */
   .factory('dndDropEffectWorkaround', function(){ return {} });
+
+})(window, window.angular);
